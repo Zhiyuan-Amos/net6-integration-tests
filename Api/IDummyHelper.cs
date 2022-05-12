@@ -2,5 +2,5 @@
 
 public interface IDummyHelper
 {
-    string CallDummyEndpoint(string toReturn);
+    string DummyMethod(string toReturn);
 }

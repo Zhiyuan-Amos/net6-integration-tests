@@ -2,5 +2,5 @@
 
 public class DummyHelper : IDummyHelper
 {
-    public virtual string CallDummyEndpoint(string toReturn) => toReturn;
+    public virtual string DummyMethod(string toReturn) => toReturn;
 }

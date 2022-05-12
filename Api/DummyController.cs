@@ -14,5 +14,5 @@ public class DummyController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public string Get() => _dummyHelper.CallDummyEndpoint("dummy");
+    public string Get() => _dummyHelper.DummyMethod("dummy");
 }

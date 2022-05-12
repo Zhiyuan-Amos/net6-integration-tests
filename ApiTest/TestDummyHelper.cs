@@ -4,5 +4,5 @@ namespace ApiTest;
 
 public class TestDummyHelper : DummyHelper
 {
-    public override string CallDummyEndpoint(string toReturn) => base.CallDummyEndpoint("notDummy");
+    public override string DummyMethod(string toReturn) => base.DummyMethod("notDummy");
 }
