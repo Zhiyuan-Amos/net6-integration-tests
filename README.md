@@ -14,4 +14,4 @@ IDummyHelper : string DummyMethod(string toReturn)
 DummyHelper <|-- TestDummyHelper
 ```
 
-Refer to [logic file](Api/DummyHelper.cs) & [test file](ApiTest/DummyTest.cs) for more details. One caveat is that `DummyHelper.DummyMethod(string toReturn)` requires the `virtual` modifier for `TestDummyHelper` to override.
+Refer to [DummyHelper.cs](Api/DummyHelper.cs), [TestDummyHelper.cs](ApiTest/TestDummyHelper.cs) & the [test file](ApiTest/DummyTest.cs) for more details. One caveat is that `DummyHelper.DummyMethod(string toReturn)` requires the `virtual` modifier for `TestDummyHelper` to override.
